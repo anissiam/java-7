@@ -4,6 +4,29 @@ public class Main {
     static int y; // Global
     static int x;
     public static void main(String[] args) {
+
+        int r = 3;
+        System.out.println(++r); // r= r+1
+        System.out.println(++r);
+        System.out.println(++r);
+        System.out.println(r++);
+        System.out.println(r);
+
+
+
+       /* int  firstNo = 90;
+        double dd = firstNo;
+        System.out.println(dd);
+
+
+        int myNum = 5;
+        System.out.println(myNum);
+
+        float myFloatNum = 5.99f;
+        char myLetter = 'D';
+        boolean myBool = true;*/
+
+
         int ii = 0;
         System.out.println(ii+=2);
         System.out.println(ii);
