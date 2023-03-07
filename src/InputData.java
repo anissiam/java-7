@@ -2,6 +2,14 @@ import java.util.Scanner;
 
 public class InputData {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Plz enter year from 4 digit");
+        String year = input.nextLine();
+        System.out.println(year.charAt(0));
+        System.out.println(year.charAt(1));
+        System.out.println(year.charAt(2));
+        System.out.println(year.charAt(3));
+
        /* Scanner input = new Scanner(System.in); // الاداة هي object نوعه  Scanner واسمه input
         String text = input.nextLine();
         System.out.println(text.isEmpty());
