@@ -3,8 +3,51 @@ import java.util.Scanner;
 public class DecisionMaking {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Plz enter num");
+        System.out.println("=========================================================================================");
+        String txt = scanner.nextLine();
+        char cha = txt.charAt(0);
+        switch (cha) {
+            case 'a','A':
+                System.out.println(1);
+                break;
+            case 'b':
+            case 'B':
+                System.out.println(2);
+                break;
+            case 'c':
+            case 'C':
+                System.out.println(3);
+                break;
+            case 'd':
+            case 'D':
+                System.out.println(4);
+                break;
+            case 'e':
+            case 'E':
+                System.out.println(5);
+                break;
+            case 'f':
+            case 'F':
+                System.out.println(6);
+                break;
+            case 'g':
+            case 'G':
+                System.out.println(7);
+                break;
+            case 'h':
+            case 'H':
+                System.out.println(8);
+                break;
+            case 'i':
+            case 'I':
+                System.out.println(9);
+                break;
+        }
+
+
+       /* System.out.println("Plz enter num");
         int num = scanner.nextInt();
+
         switch (num) {
             case 1:
                 System.out.println("1");
@@ -18,7 +61,7 @@ public class DecisionMaking {
             default:
                 System.out.println("Noting");
 
-        }
+        }*/
         /*switch (num) {
             case 1:
                 System.out.println("1");
