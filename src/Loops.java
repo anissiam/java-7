@@ -4,15 +4,77 @@ public class Loops {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        int i = 0;
-        while (i<5){
-            i++;
-            if (i==3){
-                continue;
+        int num ;
+        int max = 0;
+        int min = 0;
+        for (int i = 0; i < 6; i++) {
+            System.out.println("Plz enter num ");
+             num = scanner.nextInt();
+             if(i==0){ // لفة
+                 min = num;
+                 max = num;
+                 continue;
+             }
+            if(max<num){
+                max = num;
             }
-            System.out.println(i);
+
+            if(min>num){
+                min = num;
+            }
         }
+        System.out.println("Max is " + max);
+        System.out.println("Min is " + min);
+
+
+        /*
+        int num = 0;
+        int sum = 0;
+        int count = 0;
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Plz enter num ");
+            num = scanner.nextInt();
+            sum += num;
+            count++;
+        }
+        System.out.println(sum / count);*/
+
+
+//        int i = 5;
+//        if(i%2!=0){
+//            System.out.println();
+//        }
+
+
+
+        /*for (int i = 0; i < 100; i+=2) {
+                System.out.println(i+1);
+        }*/
+
+        /*for (int i = 0; i < 100; i++) {
+            if (i % 2 != 0) {
+                System.out.println(i);
+            }
+        }*/
+
+        /*int fact = 1;
+        for (int i = 1 ; i<=7 ;i++){
+            fact *= i;
+        }
+        System.out.println(" Fact is " + fact);*/
+
+        /*int sum = 0;
+        for (int i = 0 ; i<=3;i++){
+            sum += i;
+        }
+        System.out.println("Sum is " + sum);*/
+
+
+      /*  int i = 5;
+        do {
+            System.out.println(i);
+        } while (i < 5);
+*/
 
         /*
         System.out.println("Plz enter text");
