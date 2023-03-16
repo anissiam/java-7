@@ -3,7 +3,99 @@ import java.util.Scanner;
 public class Loops {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
+        /*for (int i = 0; i < 4; i++) {
+            System.out.println("Week " +(i+1));
+            for (int j = 0; j < 7; j++) {
+                System.out.print("Day" + (j + 1) + " ");
+            }
+            System.out.println();
+        }*/
+
+
+        /*for (int i = 0; i < 5; i++) {
+            for (int j = 0; j <=i ; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+        /*for (int i = 0; i <3 ; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+*/
+
+
+        /*int i = 0;
+        if (i==0){
+            System.out.println(i);
+        }*/
+
+        /*int i = 0;
+        for (; ; ) {
+
+            System.out.println(i);
+            i++;
+        }*/
+
+        /*Scanner scanner = new Scanner(System.in);
+        int num;
+        for (;;){
+            System.out.println("Plz enter num");
+            num = scanner.nextInt();
+            if(num==0){
+                continue;
+            }else if(num%2==0){
+                System.out.println("Even");
+            }else {
+                System.out.println("Odd");
+            }
+
+        }*/
+
+
+        /*String text;
+        for (;;){
+            System.out.println("Plz enter name ");
+            text = scanner.nextLine();
+            if(text.equalsIgnoreCase("Stop")){
+                break;
+            }
+        }*/
+
+
+        /*System.out.println("Plz enter num ");
+        int num = scanner.nextInt();
+        int fact = 1;
+        for (int i = 1; i <= num; i++) {
+            fact *= i;
+        }
+        System.out.println(fact);*/
+
+
+        /*int sum = 0;
+        for (int i = 0; i <= 100; i++) {
+            if(i%2==0){
+                sum += i;
+            }
+        }
+        System.out.println(sum);*/
+
+
+
+        /*for (int i = 0; i < 10; i++) {
+            if(i==9){
+                System.out.print("1/"+(i+1 ));
+            }else {
+                System.out.print("1/"+(i+1 ) + "+  ");
+            }
+
+        }*/
+
+        /*Scanner scanner = new Scanner(System.in);
         int num ;
         int max = 0;
         int min = 0;
@@ -24,7 +116,7 @@ public class Loops {
             }
         }
         System.out.println("Max is " + max);
-        System.out.println("Min is " + min);
+        System.out.println("Min is " + min);*/
 
 
         /*
