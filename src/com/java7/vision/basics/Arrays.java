@@ -4,10 +4,87 @@ import java.util.Scanner;
 
 public class Arrays {
     public static void main(String[] args) {
-        int nums[] = {7, 3, 2, 1, 9, 8};
+
+        String[][] names = new String[2][6];
+        System.out.println(names.length); // Num of row
+        System.out.println(names[0].length);
+        System.out.println((names.length) * (names[0].length));
+        /*String [] names1= {"sami", "ali", "soso", "ahmad" , "wrwesg"};
+        String [] names2= {"FOFO", "Nani", "Anis", "Momen" , "sami"};
+
+
+        for (int i = 0; i < names1.length; i++) {
+            for (int j = 0; j < names2.length; j++) {
+                if(names1[i].equalsIgnoreCase(names2[j])){
+                    System.out.println(names1[i]);
+                }
+            }
+        }*/
+        /*for (int i = 0; i < names.length; i++) {
+            for (int j = 0; j < i; j++) {
+                if(names[i].equalsIgnoreCase(names[j])){
+                    System.out.println(names[i]);
+                }
+            }
+        }*/
+        /*int i  =0;
+        for (String s:names) {
+            System.out.println(s + " " + i);
+            i++;
+        }*/
+
+
+        //names[names.length - 1] = "Hello java";
+        /*for (int i = 0; i < names.length; i++) {
+            if(i == names.length-1){
+                names[i] = "Hello java";
+            }
+
+        }*/
+       /* int mult = 1; // يخزن بها ناتج الضرب
+        int sum = 0;
+        int max = 0;
+        int min = 0;
+
+        Scanner scanner = new Scanner(System.in);
+        int[] nums = new int[10];
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println("plz enter num");
+            nums[i] = scanner.nextInt();
+            mult *= nums[i];
+            sum += nums[i];
+
+            if(nums[i]==10){
+                System.out.println("Found");
+            }
+
+            if (i == 0) {
+                max = nums[i];
+                min = nums[i];
+                continue;
+            }
+
+            if (max < nums[i]) {
+                max = nums[i];
+            }
+
+            if (min > nums[i]) {
+                min = nums[i];
+            }
+
+        }
+
+        System.out.println("mult :" + mult);
+        System.out.println("Sum :" + sum);
+        System.out.println("Ava :" + sum / nums.length);
+        System.out.println("Max :" + max);
+        System.out.println("Min :" + min);
+*/
+
+        /*int nums[] = {7, 3, 2, 1, 9, 8};
         int temp = 0;
 
-        java.util.Arrays.sort(nums);
+        java.util.Arrays.sort(nums);*/
 
 
         /*for (int i = 0; i < nums.length; i++) {
@@ -19,9 +96,9 @@ public class Arrays {
                 }
             }
         }*/
-        for (int i = 0; i < nums.length; i++) {
+       /* for (int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);
-        }
+        }*/
 
         /*Scanner scanner = new Scanner(System.in);
         String[] names = {"Anis", "ALi", "Sami", "Lena", "Ahmad"};
