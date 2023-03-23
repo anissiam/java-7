@@ -5,10 +5,37 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
 
-        String[][] names = new String[2][6];
+        String[][] month = {{"Sat" , "Sun" , "Mon" , "tus" , "Wed", "Thr" , "Fri"},
+                {"Sat" , "Sun" , "Mon" , "tus" , "Wed", "Thr" , "Fri"},
+                {"Sat" , "Sun" , "Mon" , "tus" , "Wed", "Thr" , "Fri"},
+                {"Sat" , "Sun" , "Mon" , "tus" , "Wed", "Thr" , "Fri"}};
+
+        for (int i = 0; i < month.length; i++) {
+            for (int j = 0; j < month[i].length; j++) {
+                System.out.print(month[i][j]+ " ");
+            }
+            System.out.println();
+        }
+
+        /*int[][] nums = {{5, 8, 9, 1}, {8, 9, 7, 2,8}};
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 0; j < nums[i].length; j++) {
+                System.out.print(nums[i][j] + "  ");
+            }
+            System.out.println();
+        }*/
+        /*String[][] names = new String[2][6];
         System.out.println(names.length); // Num of row
         System.out.println(names[0].length);
-        System.out.println((names.length) * (names[0].length));
+        //System.out.println((names.length) * (names[0].length));
+
+        for (int i = 0; i < names.length; i++) {
+            for (int j = 0; j < names[i].length; j++) {
+                System.out.print(names[i][j]);
+            }
+            System.out.println();
+        }*/
+
         /*String [] names1= {"sami", "ali", "soso", "ahmad" , "wrwesg"};
         String [] names2= {"FOFO", "Nani", "Anis", "Momen" , "sami"};
 
