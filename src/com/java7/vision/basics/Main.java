@@ -1,6 +1,7 @@
 import java.util.stream.StreamSupport;
 
 public class Main {
+
     static int y; // Global
     static int x;
     public static void main(String[] args) {
