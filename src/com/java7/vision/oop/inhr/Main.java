@@ -2,6 +2,8 @@ package com.java7.vision.oop.inhr;
 
 public class Main {
     public static void main(String[] args) {
+
+
         Superman superman = new Superman();
 
 
