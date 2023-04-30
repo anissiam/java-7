@@ -50,4 +50,14 @@ public class Animal {
     public void printAnimal() {
         System.out.println("Name:" + name + " Type:" + type + " Age:" + age);
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
 }
