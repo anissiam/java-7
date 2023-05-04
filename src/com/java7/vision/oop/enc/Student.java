@@ -1,6 +1,8 @@
 package com.java7.vision.oop.enc;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
     private String name;
     private String major;
     private int age;
@@ -38,6 +40,15 @@ public class Student {
         return major;
     }
     public String printStudent() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", major='" + major + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
+    @Override
+    public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", major='" + major + '\'' +
